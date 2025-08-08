@@ -37,4 +37,8 @@ class CPGridButton {
   String get uniqueId {
     return _elementId;
   }
+
+  void triggerPress() {
+    onPress();
+  }
 }
